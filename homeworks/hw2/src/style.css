@@ -1,0 +1,17 @@
+body {
+    background-color: #2e8cd5;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .second {
+    background-color: #924eac;
+  }
+  
+  .first {
+    background-color: #eebc12;
+  }
+  
