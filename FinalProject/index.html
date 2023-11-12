@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        <h1> Task Manager </h1>
+        <div id ="main">
+            <div class = "section write">
+                <form id="id-form"> 
+                    <input type="text"  placeholder="Name & Press enter"/>
+                    <span class="large_main_text invisible"></span>
+                </form>
+
+            </div>
+
+            <div class="section">
+                <h5 id="date"></h5>
+                <h5 id="time" class="large_main_text"></h5>
+                <h5 id="weather"> .</h5>
+            </div>
+
+            <div class="section write">
+                <form id="todo-form">
+                    <input type="text" placeholder="Task & press enter"/>
+                </form>
+            </div>       
+        </div>
+
+        <div id = "todo-area">
+            <div class ="todo-party">
+                <div id="todo0" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo1</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+                
+                <div id="todo1" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo2</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+                
+                <div id="todo2" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo3</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+            </div>
+            <div class ="todo-party">
+                <div id="todo3" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo4</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+                <div id="todo4" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo5</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+                <div id="todo5" class="todobox invisible">
+                    <div class="upline">
+                        <span>My Todo6</span>
+                        <input type="button" value="✔"/>
+                    </div>
+                     <input type="text" placeholder="memo..."/>
+                </div>
+            </div>
+                      
+        </div>
+
+    </body>
+    <script src="../apikey.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+</html>
