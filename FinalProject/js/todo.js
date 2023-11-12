@@ -28,7 +28,7 @@ function addTodo(event){
     todotext.value ="";
 
     // 요소 카운팅 
-    if(todoCNT <=6){
+    if(todoCNT <=5){
     // 요소 추가, id 
     const newImgId = selectImage();
     const todoObj ={
@@ -50,7 +50,7 @@ function addTodo(event){
     
     }else{
         alert("Maximum 6 task at once");
-        todoCNT=6;
+        todoCNT=5;
     }
     // todo id와 img id, 할일 text를 local stroage에 저장. 
     localStorage.setItem(CNTKEY,JSON.stringify(todoCNT));
