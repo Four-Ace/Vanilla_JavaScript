@@ -50,7 +50,6 @@ function addTodo(event){
     
     }else{
         alert("Maximum 6 task at once");
-        todoCNT=5;
     }
     // todo id와 img id, 할일 text를 local stroage에 저장. 
     localStorage.setItem(CNTKEY,JSON.stringify(todoCNT));
