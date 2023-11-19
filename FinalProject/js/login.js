@@ -19,7 +19,7 @@ function login(event){
 }
 
 function paintUser(){ 
-    loginMessage.innerText = "Wellcome " + localStorage.getItem(USERNAME);
+    loginMessage.innerText = "Welcome " + localStorage.getItem(USERNAME);
     loginMessage.classList.remove(INVISIBLE_CLASS);
     userName.classList.add(INVISIBLE_CLASS);
 }
